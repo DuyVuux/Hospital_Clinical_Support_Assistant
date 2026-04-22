@@ -3,7 +3,7 @@
 ## 1. 🧩 Phân tích vấn đề (Problem Breakdown)
 
 **Các tính năng chính:** Trợ lý AI cần tóm tắt hồ sơ y tế bệnh nhân, hướng dẫn quy trình nội bộ, và trả lời câu hỏi hành chính. Những tác vụ này có thể chia thành ba kịch bản chính: 
-- *Tóm tắt lâm sàng:* Ví dụ tóm tắt lịch sử bệnh, tổng hợp chẩn đoán và đơn thuốc từ hồ sơ y tế. Đây là trường hợp *rủi ro cao*, vì thông tin sai lệch có thể dẫn đến quyết định điều trị sai【24†L65-L73】【10†L92-L100】. Một lỗi nhỏ trong tóm tắt có thể gây hậu quả nghiêm trọng cho bệnh nhân.  
+- *Tóm tắt lâm sàng:* Ví dụ tóm tắt lịch sử bệnh, tổng hợp chẩn đoán và đơn thuốc từ hồ sơ y tế. Đây là trường hợp *rủi ro cao*, vì thông tin sai lệch có thể dẫn đến quyết định điều trị sai. Một lỗi nhỏ trong tóm tắt có thể gây hậu quả nghiêm trọng cho bệnh nhân.  
 - *Hỗ trợ quy trình chăm sóc:* Ví dụ nhắc nhở quy trình thăm khám, hướng dẫn chuẩn SOP (Standard Operating Procedures) nội bộ. Mức độ rủi ro trung bình- cao: tuy không trực tiếp quyết định điều trị, nhưng sai sót có thể ảnh hưởng đến chất lượng và tuân thủ quy trình.  
 - *Câu hỏi hành chính:* Ví dụ lịch hẹn, điền mẫu biểu, quy định bệnh viện. Đây là kịch bản *rủi ro thấp* hơn (chủ yếu ảnh hưởng hiệu quả vận hành, không ảnh hưởng trực tiếp bệnh nhân) nhưng vẫn cần chính xác.  
 
